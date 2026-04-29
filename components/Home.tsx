@@ -59,8 +59,8 @@ export function Home() {
       <div
         className={` ${openEnvelope ? "animate-bounceXR" : ""} rounded-4xl absolute z-50 triangleR left-[80%] bgC w-dvh h-dvh border border-guyn`}
       ></div>
-      <p className=" z-60 absolute top-20 text-vrayi left-1/2 -translate-x-1/2 ">Հարսանեկան հրավիրատոմս</p>
-      <p className=" z-60 absolute bottom-20 text-vrayi font-bold left-1/2 -translate-x-1/2 ">Սիրով <br /> Մուշեղ և Մելինե</p>
+      <p className={` ${openEnvelope ? "opacity-0" : ""} z-60 absolute top-20 text-vrayi left-1/2 -translate-x-1/2 `}>Հարսանեկան հրավիրատոմս</p>
+      <p className={` ${openEnvelope ? "opacity-0" : ""} z-60 absolute bottom-20 text-vrayi font-bold left-1/2 -translate-x-1/2 `}>Սիրով <br /> Մուշեղ և Մելինե</p>
       <img
         src={envelop[1]}
         alt="envelop"
