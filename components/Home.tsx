@@ -93,47 +93,19 @@ export function Home() {
             {...anim}
             className="text-center text-3xl tracking-[5%] font-fold mt-25"
           >
-            {name[0]} և {name[1]}
+            {name[1]} և {name[0]}
           </motion.h2>
-          <div className="w-full grid grid-cols-2 gap-3 mt-30 mb-20">
-            <div className="relative">
+          <div className=" my-20">
               <Image
                 src={images[0]}
                 alt="icon1"
                 width={500}
                 height={500}
-                className=" object-cover h-60"
+                className=" object-cover w-full"
               />
-              <motion.p
-                {...anim}
-                className="absolute w-max text-start left-4 -top-15"
-              >
-                {firstTxt1}
-              </motion.p>
-            </div>
-            <div className="relative">
-              <Image
-                src={images[1]}
-                alt="icon1"
-                width={500}
-                height={500}
-                className=" object-cover h-60"
-              />
-              <motion.p
-                {...anim}
-                className="absolute w-max text-start left-0z -bottom-10"
-              >
-                {firstTxt2}
-              </motion.p>
-            </div>
           </div>
         </div>
 
-        <Calendar
-          year={forCalendar[0]}
-          month={forCalendar[1]}
-          highlightDay={forCalendar[2]}
-        />
 
         {/* 2rd mas teqster */}
         <div className=" mb-20  ">
@@ -164,6 +136,11 @@ export function Home() {
           </div>
         </div>
 
+        <Calendar
+          year={forCalendar[0]}
+          month={forCalendar[1]}
+          highlightDay={forCalendar[2]}
+        />
         <Program />
 
         {/* errord mas vazox tox + nkar */}
