@@ -47,11 +47,20 @@ export function Home() {
     <div
       className={` ${openEnvelope ? "" : "relative h-dvh"} tracking-[20%] text-center overflow-hidden  FontArmHmk text-vrayi `}
     >
-      <div className={` ${openEnvelope ? "animate-bounceYT" : ""} rounded-4xl absolute z-55 triangleT -top-[45%] left-1/2 -translate-x-1/2 bgC w-[85dvh] h-[85dvh] border border-guyn`}></div>
-      <div className={` ${openEnvelope ? "animate-bounceYB" : ""} rounded-4xl absolute z-53 triangleB -bottom-1/2 left-1/2 -translate-x-1/2 bgC w-[90dvh] h-[90dvh] border border-guyn`}></div>
-      <div className={` ${openEnvelope ? "animate-bounceXL" : ""} rounded-4xl absolute z-50 triangleL right-[80%] bgC w-dvh h-dvh border border-guyn`}></div>
-      <div className={` ${openEnvelope ? "animate-bounceXR" : ""} rounded-4xl absolute z-50 triangleR left-[80%] bgC w-dvh h-dvh border border-guyn`}></div>
-      
+      <div
+        className={` ${openEnvelope ? "animate-bounceYT" : ""} rounded-4xl absolute z-55 triangleT -top-[45%] left-1/2 -translate-x-1/2 bgC w-[85dvh] h-[85dvh] border border-guyn`}
+      ></div>
+      <div
+        className={` ${openEnvelope ? "animate-bounceYB" : ""} rounded-4xl absolute z-53 triangleB -bottom-1/2 left-1/2 -translate-x-1/2 bgC w-[90dvh] h-[90dvh] border border-guyn`}
+      ></div>
+      <div
+        className={` ${openEnvelope ? "animate-bounceXL" : ""} rounded-4xl absolute z-50 triangleL right-[80%] bgC w-dvh h-dvh border border-guyn`}
+      ></div>
+      <div
+        className={` ${openEnvelope ? "animate-bounceXR" : ""} rounded-4xl absolute z-50 triangleR left-[80%] bgC w-dvh h-dvh border border-guyn`}
+      ></div>
+      <p className=" z-60 absolute top-20 text-vrayi left-1/2 -translate-x-1/2 ">Հարսանեկան հրավիրատոմս</p>
+      <p className=" z-60 absolute bottom-20 text-vrayi font-bold left-1/2 -translate-x-1/2 ">Սիրով <br /> Մուշեղ և Մելինե</p>
       <img
         src={envelop[1]}
         alt="envelop"
@@ -80,7 +89,10 @@ export function Home() {
       <div className="mx-auto max-w-md ">
         {/* arajin mas */}
         <div className="px-3">
-          <motion.h2 {...anim} className="text-center text-3xl tracking-[5%] font-fold mt-25">
+          <motion.h2
+            {...anim}
+            className="text-center text-3xl tracking-[5%] font-fold mt-25"
+          >
             {name[0]} և {name[1]}
           </motion.h2>
           <div className="w-full grid grid-cols-2 gap-3 mt-30 mb-20">
@@ -175,13 +187,13 @@ export function Home() {
               className="w-[70vw] h-[80vw] mx-auto relative z-2 rounded-tl-[220px] object-cover "
             />
 
-                <Image
-                  src={icons[1]}
-                  width={40}
-                  height={40}
-                  alt="cal"
-                  className="absolute object-contain text-vrayi w-15 h-15 top-0 left-10"
-                />
+            <Image
+              src={icons[1]}
+              width={40}
+              height={40}
+              alt="cal"
+              className="absolute object-contain text-vrayi w-15 h-15 top-0 left-10"
+            />
             <span className="absolute ml-4 -mt-24 z-0 w-[70vw] h-[80vw] rounded-tl-[220px] bg-guyn left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 "></span>
 
             <p className=" font-normal mt-15 text-2xl tracking-[25%] text-center ">
@@ -207,7 +219,6 @@ export function Home() {
         </motion.p>
 
         <TimeBox />
-
 
         <AttendanceGuests />
 
@@ -242,7 +253,6 @@ export function Home() {
         <motion.p {...anim} className=" text-2xl my-10 ">
           {txt6}
         </motion.p>
-
       </div>
       <Footer />
     </div>
