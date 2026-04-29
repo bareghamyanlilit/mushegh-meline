@@ -26,7 +26,7 @@ export function Calendar({
     "Դեկտեմբեր",
   ];
 
-  const weekDays = ["Կիր", "Երկ", "Երք", "Չրք", "Հնգ", "Ուրք", "Շբթ"];
+  const weekDays = ["Կիր", "Երկ", "Երք", "Չրք", "Հնգ", "Ուրբ", "Շբթ"];
 
   const daysInMonth = new Date(year, month, 0).getDate();
 
