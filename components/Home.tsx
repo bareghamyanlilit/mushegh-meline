@@ -4,15 +4,9 @@ import { useEffect, useState } from "react";
 import { MusicPlayer } from "./music";
 import {
   anim,
-  date,
   envelop,
-  firstTxt1,
-  firstTxt2,
   forCalendar,
-  icons,
-  images,
   name,
-  rotateTxt,
   txt1,
   txt1Title,
   txt2,
@@ -21,7 +15,6 @@ import {
   txt5,
   txt6,
   vazoxTox1,
-  vazoxTox2,
 } from "@/data/data";
 import { motion } from "framer-motion";
 import { Program } from "./Program";
@@ -75,7 +68,7 @@ export function Home() {
           className="fixed z-10 p-1  rounded-2xl bg-[#5800001f]  right-7 top-7 w-15  h-15 flex justify-center items-center"
         >
           <Image
-            src={icons[1]}
+            src="/icon2.png"
             alt="icon1"
             width={500}
             height={500}
@@ -93,11 +86,11 @@ export function Home() {
             {...anim}
             className="text-center text-3xl tracking-[5%] font-fold mt-25"
           >
-            {name[1]} և {name[0]}
+            {name[0]} և {name[1]}
           </motion.h2>
           <div className=" my-20">
               <Image
-                src={images[0]}
+                src="/img1.jpg"
                 alt="icon1"
                 width={500}
                 height={500}
@@ -119,7 +112,7 @@ export function Home() {
           </div>
           <div className="relative mb-40 mt-20">
             <Image
-              src={images[2]}
+              src="/img2.jpg"
               alt="icon1"
               width={500}
               height={500}
@@ -165,7 +158,7 @@ export function Home() {
             />
 
             <Image
-              src={icons[1]}
+              src="/icon2.png"
               width={40}
               height={40}
               alt="cal"
@@ -197,11 +190,6 @@ export function Home() {
 
         <TimeBox />
 
-        <AttendanceGuests />
-
-        <motion.p {...anim} className=" text-2xl  mt-20">
-          {txt4}
-        </motion.p>
 
         {/* dress code */}
         <div className=" text-vrayi">
@@ -219,7 +207,7 @@ export function Home() {
             {txt5}
           </motion.p>
           <Image
-            src="/img3.jpg"
+            src="/img4.jpg"
             width={500}
             height={500}
             alt="jamanak"
@@ -227,6 +215,9 @@ export function Home() {
           />
         </div>
 
+        <motion.p {...anim} className=" text-2xl  mt-20">
+          {txt4}
+        </motion.p>
         <motion.p {...anim} className=" text-2xl my-10 ">
           {txt6}
         </motion.p>

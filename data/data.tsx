@@ -1,21 +1,9 @@
 export const program: any = [
   {
-    time: "11:00",
-    title: "Փեսայի տուն",
-    subt:'Երևան',
-    address: "",
-  },
-  {
-    time: "12:30",
-    title: "Հարսի տուն",
-    subt:'Երևան',
-    address: "",
-  },
-  {
-    time: "14:30",
+    time: "15:00",
     title: "Եկեղեցի",
-    subt:'Գեղարդի վանք',
-    address: "Գեղարդի վանք",
+    subt:'Ս. Գրիգոր Նարեկացի',
+    address: "Վանաձորի Սուրբ Գրիգոր Նարեկացի",
   },
   {
     time: "17:00",
@@ -28,21 +16,7 @@ export const envelop=[
   '/envelope.png',
   '/forenvelope.png'
 ]
-export const images = [
-  "/img1.jpg",
-  "/img2.jpg",
-  "/img3.jpg",
-  "/img4.jpg",
-  "/img5.jpg",
-];
 
-export const icons = [
-  "/icon1.png",
-  "/icon2.png",
-  "/icon3.png",
-  "/icon4.png",
-  "/icon5.png",
-];
 export const name = ["ՄՈՒՇԵՂ", "ՄԵԼԻՆԵ"];
 export const firstTxt1='-սիրում եմ քեզ,\nկդառնա՞ս իմ կինը'
 export const firstTxt2='-Հա, կդառնամ'
@@ -55,10 +29,10 @@ export const forCalendar = [2026, 6, 22];
 export const vazoxTox1 =
   "ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ՍԵՐ LOVE ЛЮБОВ ";
 
-export const txt1Title = "Սիրելիներս";
+export const txt1Title = "Սիրելի հարազատներ";
 
 export const txt1 =
-  "Սիրով հրավիրում \n ենք Ձեզ\nներկա գտնվելու\nմեր հարսանիքին  ";
+  "Սիրով հրավիրում ենք\n Ձեզ մասնակցել\n մեր կյանքի \nկարևոր և հիշարժան\n օրվան  ";
 
 export const rotateTxt = "Սիրում եք քեզ";
 
@@ -70,7 +44,7 @@ export const txt2 =
 
 export const txt3 = "Ինչ Աստված \n միացրեց,մարդը\nթող չբաժանի\n\nՄարկոս 10:9";
 
-export const txt4 = "Մասնակցության\n մասին\n Խնդրում ենք \nտեղեկացնել \nմինչև\nՀուլիսի 1-ը";
+export const txt4 = "Մասնակցության\n մասին\n Խնդրում ենք \nտեղեկացնել \nմինչև\nՀուլիսի 10-ը";
 export const txt5 =
   "Խնդրում ենք \nհարսանիքի օրը \nԽՈՒՍԱՓԵԼ \nսպիտակ հագուստ\nկրելուց\n\nՄնացած \nբոլոր երանգները\nսազում են Ձեզ \n առավել քան երբևէ";
 
@@ -88,5 +62,3 @@ export const anim: any = {
   },
   viewport: { once: true },
 };
-
-export const rsvp = "https://script.google.com/macros/s/AKfycbxau9cbarA9fOS1TFKfLS8cUVbyOqbPxVqrevpAv9EDj7V6jtg7pN6Bj7bkRLinI_r9vQ/exec";
