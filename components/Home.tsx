@@ -21,8 +21,6 @@ import { Program } from "./Program";
 import { Footer } from "./footer";
 import { Calendar } from "./Calendar";
 import { TimeBox } from "./TimeBox";
-import AttendanceGuests from "./RSVP";
-import { FaRegHeart } from "react-icons/fa";
 
 export function Home() {
   const [openEnvelope, setOpenEnvelope] = useState(false);
